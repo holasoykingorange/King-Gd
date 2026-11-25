@@ -1,0 +1,16 @@
+{
+	"geode": "6.0.0",
+	"gd": {
+		"win": "2.2091"
+	},
+	"version": "v1.0.0",
+	"id": "hskorg.osu-clicks",
+	"name": "Osu Clicks",
+	"developer": "TuUsuario",
+	"description": "Sonido de clic de osu!",
+	"resources": {
+		"files": [
+			"resources/osu.wav"
+		]
+	}
+}
