@@ -27,10 +27,10 @@
 		"volume": {
 			"type": "float",
 			"name": "Volumen",
-			"description": "Ajusta el volumen del sonido de clic.",
+			"description": "Ajusta el volumen hasta 500%. Los niveles altos pueden distorsionar.",
 			"default": 1.0,
 			"min": 0.0,
-			"max": 2.0,
+			"max": 5.0,
 			"control": {
 				"slider": true,
 				"slider-step": 0.05
