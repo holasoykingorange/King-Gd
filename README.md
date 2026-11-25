@@ -5,6 +5,8 @@ Un mod ligero para **Geometry Dash** (Geode) que reproduce el sonido de clic cl�
 ## Características
 
 - Reproduce el sonido de clic de **osu!** al presionar el botón de salto.
+- Permite activar o desactivar el sonido y ajustar su volumen desde los ajustes del mod en Geode.
+- Permite elegir un archivo de sonido WAV u OGG desde esos mismos ajustes.
 - Ligero, sin dependencias externas ni descargas en línea.
 - Compatible con **Geometry Dash v2.2091** y **Geode v6.0.0** en Windows.
 
@@ -15,10 +17,13 @@ Un mod ligero para **Geometry Dash** (Geode) que reproduce el sonido de clic cl�
 3. Selecciona **Install From File** y elige el archivo `.geode` descargado (o cópialo manualmente en `GeometryDash/geode/mods/`).
 4. Reinicia el juego.
 
-## Cómo cambiar el sonido
+## Ajustes del sonido
 
-Si quieres usar otro sonido de clic en el futuro:
-1. Reemplaza el archivo dentro de la carpeta `resources/` por tu propio audio (`.wav` o `.ogg`).
+En Geometry Dash, abre Geode, entra en **Mods -> Osu Clicks -> Settings** y desde la sección **Sonido de clic** puedes:
+
+- Activar o desactivar el sonido.
+- Cambiar su volumen con el control deslizante.
+- Seleccionar un archivo de sonido WAV u OGG. El clic de osu! incluido se usa por defecto.
 
 ## Créditos
 

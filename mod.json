@@ -12,5 +12,44 @@
 		"files": [
 			"resources/osu.wav"
 		]
+	},
+	"settings": {
+		"sound-title": {
+			"type": "title",
+			"name": "Sonido de clic"
+		},
+		"enabled": {
+			"type": "bool",
+			"name": "Activar sonido",
+			"description": "Reproduce un sonido al saltar.",
+			"default": true
+		},
+		"volume": {
+			"type": "float",
+			"name": "Volumen",
+			"description": "Ajusta el volumen del sonido de clic.",
+			"default": 1.0,
+			"min": 0.0,
+			"max": 2.0,
+			"control": {
+				"slider": true,
+				"slider-step": 0.05
+			}
+		},
+		"sound-file": {
+			"type": "file",
+			"name": "Archivo de sonido",
+			"description": "Elige un archivo WAV u OGG. El sonido osu! se usa por defecto.",
+			"default": "{mod_resources_dir}/osu.wav",
+			"control": {
+				"dialog": "open",
+				"filters": [
+					{
+						"files": ["*.wav", "*.ogg"],
+						"description": "Audio WAV/OGG"
+					}
+				]
+			}
+		}
 	}
 }
