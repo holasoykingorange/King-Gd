@@ -36,6 +36,14 @@
 				"slider-step": 0.05
 			}
 		},
+		"test-sound": {
+			"type": "button",
+			"name": "Probar sonido",
+			"description": "Reproduce el sonido con el volumen actual.",
+			"buttons": {
+				"play": "Probar"
+			}
+		},
 		"sound-file": {
 			"type": "file",
 			"name": "Archivo de sonido",
