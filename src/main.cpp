@@ -1,6 +1,5 @@
 #include <Geode/Geode.hpp>
 #include <Geode/modify/PlayerObject.hpp>
-#include <filesystem>
 
 using namespace geode::prelude;
 
@@ -17,7 +16,7 @@ class $modify(OsuPlayerObject, PlayerObject) {
             return;
         }
 
-        auto soundFile = Mod::get()->getSettingValue<std::filesystem::path>("sound-file");
+        auto soundFile = Mod::get()->getSettingValue<asp::fs::Path>("sound-file");
         auto soundPath = soundFile.empty() ? "osu.wav"_spr : soundFile.string();
         FMODAudioEngine::sharedEngine()->playEffect(soundPath, 1.0f, 1.0f, static_cast<float>(volume));
     }
